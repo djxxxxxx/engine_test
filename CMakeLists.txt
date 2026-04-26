@@ -4,16 +4,6 @@ project(engine_test)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# ========== 依赖安装路径 ==========
-# 根据平台取消注释，或从命令行传入:
-# cmake -DCMAKE_PREFIX_PATH="C:/libs/install" ..
-#
-# Windows (MinGW/MSVC):
-# list(APPEND CMAKE_PREFIX_PATH "C:/libs/install")
-#
-# Linux:
-# list(APPEND CMAKE_PREFIX_PATH "/opt/libs")
-
 # ========== 查找依赖包 ==========
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
