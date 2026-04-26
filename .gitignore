@@ -1,4 +1,6 @@
+# Dependencies (installed separately)
 deps/
+
 # Build output
 build/
 *.exe
